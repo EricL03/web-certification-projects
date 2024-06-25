@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://scontent.fbma4-1.fna.fbcdn.net/v/t39.30808-6/337124660_1402518106953933_1236479728186076821_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8JLdASbXQ3EQ7kNvgE_O19d&_nc_ht=scontent.fbma4-1.fna&oh=00_AYDSRdR31DJWXZM-OM59urBhDIGIT0b10gZUoB8CjLeb1A&oe=66808D4A);
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: black;
+    color: #ffffff;
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+}
+
+label,
+input {
+    display: block;
+}

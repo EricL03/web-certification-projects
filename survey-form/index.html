@@ -11,11 +11,11 @@
     <h1 id="title">Bli medlem i Söderköpings innebandyklubb</h1>
     <p id="description">För alla som vill spela innebandy i ett härligt lag och förening!</p>
     <form method="post" id="survey-form" action="">
-        <label id="name-label" for="name">Namn<input id="name" type="text"
-                placeholder="Skriv dit för- och efternamn"></label>
+        <label id="name-label" for="name">Namn<input id="name" type="text" placeholder="Skriv dit för- och efternamn"
+                required></label>
 
-        <label id="email-label" for="email">Mejladress<input id="email" type="email"
-                placeholder="Skriv din mejladress"></label>
+        <label id="email-label" for="email">Mejladress<input id="email" type="email" placeholder="Skriv din mejladress"
+                required></label>
 
         <label id="number-label" for="number">Ålder<input id="number" type="number" min="15" max="60"
                 placeholder="Skriv din Ålder"></label>
@@ -47,7 +47,7 @@
         <textarea placeholder="Ange tidigare lag" id="previous-team"></textarea>
 
 
-        <input type="submit" value="Submit">
+        <input id="submit" type="submit" value="Submit">
 
     </form>
 </body>
