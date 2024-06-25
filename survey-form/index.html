@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Söderköpings IBK - Bli medlem</title>
 </head>
 
@@ -10,7 +11,44 @@
     <h1 id="title">Bli medlem i Söderköpings innebandyklubb</h1>
     <p id="description">För alla som vill spela innebandy i ett härligt lag och förening!</p>
     <form method="post" id="survey-form" action="">
-        <div></div>
+        <label id="name-label" for="name">Namn<input id="name" type="text"
+                placeholder="Skriv dit för- och efternamn"></label>
+
+        <label id="email-label" for="email">Mejladress<input id="email" type="email"
+                placeholder="Skriv din mejladress"></label>
+
+        <label id="number-label" for="number">Ålder<input id="number" type="number" min="15" max="60"
+                placeholder="Skriv din Ålder"></label>
+
+        <label for="dropdown">Ange din föredragna spelarposition
+            <select name="player-position" id="dropdown">
+                <!-- disabled selected för att den ska visas men inte kunna väljas... -->
+                <option value="" disabled selected>Välj position</option>
+                <option value="forward">Forward</option>
+                <option value="center">Center</option>
+                <option value="defense">Back</option>
+                <option value="golie">Målvakt</option>
+            </select>
+        </label>
+
+        <label for="team">Ange vilket lag du vill spela för</label>
+        <label><input type="radio" name="team" value="D2">D2</label>
+        <label><input type="radio" name="team" value="H2">H2</label>
+        <label><input type="radio" name="team" value="H3">H3</label>
+
+        <label for="feedback">Vad tycker du är viktigast när du spelar innebandy</label>
+        <label><input id="feedback" type="checkbox" value="1">Att ha roligt</label>
+        <label><input id="feedback" type="checkbox" value="2">Att vinna matcher</label>
+        <label><input id="feedback" type="checkbox" value="3">Att göra många mål</label>
+        <label><input id="feedback" type="checkbox" value="4">Att hålla nollan</label>
+        <label><input id="feedback" type="checkbox" value="5">Att vara en del av ett lag</label>
+
+        <label for="previous-team">Om du har spelat innebandy tidigare, för vilket lag?</label>
+        <textarea placeholder="Ange tidigare lag" id="previous-team"></textarea>
+
+
+        <input type="submit" value="Submit">
+
     </form>
 </body>
 
