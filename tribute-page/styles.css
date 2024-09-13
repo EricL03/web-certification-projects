@@ -8,3 +8,20 @@ img {
     padding: 0;
     margin: auto;
 }
+
+#img-caption {
+    text-align: center;
+}
+
+#title,
+.sub-title {
+    text-align: center;
+}
+
+#tribute-info {
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+}
