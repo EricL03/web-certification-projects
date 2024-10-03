@@ -4,20 +4,54 @@ section header {
 }
 
 section {
-    margin-left: 200px;
     /* To make the links in the navbar need to actually move... */
     height: 50vh;
     box-sizing: border-box;
 }
 
-#navbar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    box-sizing: border-box;
-    width: 200px;
-    height: 100vh;
-    padding: 1rem;
+@media(min-width: 768px) {
+    #navbar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        box-sizing: border-box;
+        width: 200px;
+        height: 100vh;
+        padding: 1rem;
+        margin-right: 0;
+        border: solid black;
+        border-radius: 5px;
+    }
+
+    section {
+        margin-left: 200px;
+    }
+
+    #navbar a {
+        display: block;
+    }
+}
+
+@media(max-width: 768px) {
+    #navbar {
+        position: fixed;
+        top: 5px;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1rem;
+        border: solid black;
+        border-radius: 5px;
+    }
+
+    body {
+        margin-top: 200px;
+    }
+
+    #navbar a {
+        display: inline-block;
+        margin-right: 1rem;
+        margin-bottom: 0;
+    }
 }
 
 #navbar header {
@@ -27,7 +61,6 @@ section {
 }
 
 #navbar a {
-    display: block;
     margin-bottom: 1rem;
     font-size: 1.3rem;
     border-radius: 5px;
@@ -36,4 +69,9 @@ section {
 
 #navbar a:hover {
     color: blue;
+}
+
+code {
+    display: block;
+    margin: 1rem;
 }
