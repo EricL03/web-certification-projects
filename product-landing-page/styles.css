@@ -4,8 +4,15 @@
 }
 
 #video {
-    width: 360px;
-    height: 215px;
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 900px) and (min-width: 100px) {
+    #video {
+        width: 360px;
+        height: 215px;
+    }
 }
 
 #nav-bar {
