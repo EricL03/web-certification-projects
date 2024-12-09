@@ -37,6 +37,11 @@
     padding-top: 8vh;
 }
 
+#navbar .projects-list {
+    display: flex;
+    justify-content: center;
+}
+
 #contact-me {
     height: 92vh;
     width: 100%;
