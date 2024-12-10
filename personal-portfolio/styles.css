@@ -35,11 +35,22 @@
     height: 92vh;
     width: 100%;
     padding-top: 8vh;
+    background-color: lightblue;
 }
 
-#navbar .projects-list {
+.projects-list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.booking-bot,
+.freecodecamp {
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    background-color: gray;
 }
 
 #contact-me {
