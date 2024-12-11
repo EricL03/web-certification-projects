@@ -67,3 +67,9 @@
     width: 100%;
     padding-top: 8vh;
 }
+
+#github-profile-link {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
