@@ -76,4 +76,10 @@ html {
     font-size: 22px;
     text-decoration: none;
     color: black;
+    display: inline-block;
+    transition: transform 0.6s ease;
+}
+
+#github-profile-link:hover {
+    transform: translateY(10px);
 }
