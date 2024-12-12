@@ -1,11 +1,34 @@
-html {
+html, body {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 #welcome-section {
   height: 92vh;
   width: 100%;
   padding-top: 8vh;
+  background-color: black;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-section > h1 {
+    flex: 0 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+#welcome-section > p {
+    flex: 0 0 auto;
+    text-align: center;
+    color: aquamarine;
+    font-size: 1.5rem;
 }
 
 #navbar {
