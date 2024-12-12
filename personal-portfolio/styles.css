@@ -62,7 +62,9 @@ html, body {
   height: 92vh;
   width: 100%;
   padding-top: 8vh;
-  background-color: lightblue;
+  background: linear-gradient(135deg, #013A63, #1C6758, #5CB4B5);
+  color: aquamarine;
+  text-align: center;
 }
 
 .projects-list {
@@ -77,9 +79,8 @@ html, body {
   width: 200px;
   height: 120px;
   text-align: center;
-  background-color: gray;
   text-decoration: none;
-  color: black;
+  color: aquamarine;
   font-size: 22px;
 }
 
