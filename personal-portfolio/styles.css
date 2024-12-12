@@ -41,6 +41,7 @@ html, body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  border-radius: 1vh;
 }
 
 #navbar a {
@@ -51,6 +52,7 @@ html, body {
   text-decoration: none;
   display: flex;
   align-items: center;
+  border-radius: 1vh;
 }
 
 #navbar a:hover {
