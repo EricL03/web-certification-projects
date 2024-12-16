@@ -61,7 +61,7 @@ html, body {
 }
 
 #projects {
-  height: 92vh;
+  height: 100%;
   width: 100%;
   padding-top: 8vh;
   background: linear-gradient(135deg, #013A63, #1C6758, #5CB4B5);
@@ -83,6 +83,7 @@ html, body {
   width: 380px;
   height: 260px;
   margin: 0 auto;
+  padding-bottom: 70px;
   text-align: center;
   text-decoration: none;
   color: aquamarine;
