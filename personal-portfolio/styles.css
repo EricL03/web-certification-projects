@@ -67,24 +67,49 @@ html, body {
   background: linear-gradient(135deg, #013A63, #1C6758, #5CB4B5);
   color: aquamarine;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .projects-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding-top: 100px;
-  padding-left: 300px;
+  gap: 100px;
+  padding: 40px 220px;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .booking-bot,
 .freecodecamp {
-  width: 340px;
-  height: 210px;
+  width: 380px;
+  height: 260px;
+  margin: 0 auto;
   text-align: center;
   text-decoration: none;
   color: aquamarine;
   font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 100px;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .booking-bot,
+  .freecodecamp {
+    width: 340px;
+    height: 210px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 30px;
+  }
 }
 
 .booking_bot_picture,
