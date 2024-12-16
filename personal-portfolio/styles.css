@@ -79,8 +79,7 @@ html, body {
   box-sizing: border-box;
 }
 
-.booking-bot,
-.freecodecamp {
+.project {
   width: 380px;
   height: 260px;
   margin: 0 auto;
@@ -100,8 +99,7 @@ html, body {
     box-sizing: border-box;
   }
 
-  .booking-bot,
-  .freecodecamp {
+  .project {
     width: 340px;
     height: 210px;
     margin: 0 auto;
