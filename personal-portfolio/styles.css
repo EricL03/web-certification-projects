@@ -139,7 +139,7 @@ html, body {
     text-align: center;
 }
 
-#github-profile-link, #mail-link, #phone-link, #linkedIn-profile-link {
+#profile-link {
   font-size: 1.5rem;
   text-decoration: none;
   color: white;
@@ -148,6 +148,6 @@ html, body {
   padding: 5px;
 }
 
-#github-profile-link:hover, #mail-link:hover, #phone-link:hover, #linkedIn-profile-link:hover {
+#profile-link:hover {
   transform: translateY(10px);
 }
